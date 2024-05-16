@@ -186,8 +186,8 @@ body {
     height: 100vh;
 }
 
-.area-tec > h2 {
-    font-size: 30px;
+.area-tec > h1 {
+    font-size: 40px;
     font-weight: 500;
     padding: 10px;
     text-align: center;
