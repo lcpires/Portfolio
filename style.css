@@ -123,6 +123,11 @@ body {
 .area-rede-social > a > img{
     width: 30px;
     padding-top: 20px;
+    transition: 0.5s;
+}
+
+.area-rede-social > a > img:hover {
+    width: 33px;
 }
 
 .area-quem-sou-eu {
