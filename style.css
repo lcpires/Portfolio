@@ -223,11 +223,14 @@ hr {
     padding-top: 70px;
     text-align: center;
     font-size: 40px;
+    font-weight: 500;
 }
 
 .area-projetos img {
     width: 100%;
     max-width: 350px;
+    box-shadow: 5px 5px 10px var(--cor4);
+    border-radius: 5px;
 }
 
 .conteudo-projetos {
@@ -237,4 +240,30 @@ hr {
 
 .area-projetos > .projeto-2 {
     flex-wrap: wrap-reverse;
+}
+
+.conteudo-projetos h1 {
+    font-size: 30px;
+    color: var(--cor5);
+}
+
+.conteudo-projetos a {
+    text-decoration: none;
+}
+
+.conteudo-projetos button {
+    background-color: var(--cor2);
+    border: solid 1px var(--cor4);
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.conteudo-projetos button:hover {
+    background: var(--cor4);
+    font-size: 16px;
 }
