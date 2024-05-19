@@ -65,13 +65,13 @@ body {
     font-size: 17px;
 }
 
-#contato {
+#nav-contato {
     color: #74A9B3;
     border: 1px 1px #74A9B3;
     border-radius: 20px;
 }
 
-#contato:hover {
+#nav-contato:hover {
     color: var(--cor5);
 }
 
@@ -271,4 +271,44 @@ hr {
 .conteudo-projetos button:hover {
     background: var(--cor4);
     font-size: 16px;
+}
+
+.area-contato {
+    background-color: var(--cor1);
+    padding: 20px 20px 50px 20px;
+}
+
+.area-contato > h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.img-contatos {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+.img-contatos > a {
+    padding: 10px;
+}
+
+.img-contatos > a > img {
+    max-width: 30px;
+
+}
+
+.gmail-contato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gmail-contato > img {
+    width: 30px;
+    padding-right: 10px;
+}
+
+.gmail-contato > p {
+    font-size: min(15px, 3vw)
 }
